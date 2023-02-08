@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- fontawesome & icons -->
+  <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"/>
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <title>Dashboard User</title>
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../assets/images/logo.png" alt="logo" width="120">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="./user-account.png" alt="icon languages" width="25">
+            </a>
+
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#"><ion-icon name="card-outline"></ion-icon> Saldo Pendanaan</a></li>
+              <li><a class="dropdown-item" href="#">Rp. 100.000.000</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="dashboard-user.html"><ion-icon name="home-outline"></ion-icon> Dashboard</a></li>
+              <li><a class="dropdown-item" href="user.html"><ion-icon name="person-circle-outline"></ion-icon> My Profile</a></li>
+              <li><a class="dropdown-item" href="#"><ion-icon name="cart-outline"></ion-icon> Keranjang</a></li>
+              <li><a class="dropdown-item" href="user-setting/user-setting.html"><ion-icon name="cog-outline"></ion-icon> Pengaturan</a></li>
+              <li><a class="dropdown-item" href="../index.html"><ion-icon name="exit-outline" class="text-danger"></ion-icon> Keluar</a></li>
+            </ul>
+          </li>
+          <a class="nav-link">
+            <img src="./notifications-outline.svg" alt="icon" width="25">
+          </a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navigation -->
+
+  <!-- Jumbotron -->
+  <div class="dasrhoard-user">
+    <div class="container container-user">
+      <div class="row">
+        <div class="col-sm-12 col-md-9 col-lg-9">
+          <h2>Dapatkan Pendanaan Pertanoian <br> Hingga Rp 100.000.000</h2>
+          <a href="#" class="get-button">Dapatkan Sekarang</a>
+        </div>
+        <div class="col-sm-12 col-md-3 col-lg-3">
+          <img class="img-fluid" src="jumbotron-img.png" alt="gambar jumbotron user" width="200">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Jumbotron -->
+
+  <!-- Notification -->
+  <div class="notification-user pb-5">
+    <div class="container">
+      <div class="row d-flex align-content-center justify-content-center">
+        <div class="col-sm-6 col-12 col-lg-6">
+          <div class="group text-start">
+            <div class="input-group mb-3" id="group-input" style="background-color: #FF000021;">
+              <div class="d-flex">
+                <i class="ri-information-fill"></i> &nbsp; <label class="text-muted" id="notification"> Lengkapi Persyaratan Profil anda, agar dapat mengajukan pendanaan sesuai komoditas yang dipilih.</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Notification -->
+
+  <div class="comodity-user">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-3 col-lg-3">
+          <div class="card">
+            <img src="img/jagung.png" alt="gambar jagung" class="img-fluid" width="100%">
+            <div class="card-body">
+              <h5>Jagung</h5>
+              <p>Total pendanaan mencapai</p>
+              <p><strong>Rp. 20.000.000</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-3 col-lg-3">
+          <div class="card">
+            <img src="img/kedelai.png" alt="gambar kedelai" class="img-fluid" width="100%">
+            <div class="card-body">
+              <h5>Kedelai</h5>
+              <p>Total pendanaan mencapai</p>
+              <p><strong>Rp. 20.000.000</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-3 col-lg-3">
+          <div class="card">
+            <img src="img/kelapa-sawit.png" alt="gambar kelapa sawit" class="img-fluid" width="100%">
+            <div class="card-body">
+              <h5>Kelapa Sawit</h5>
+              <p>Total pendanaan mencapai</p>
+              <p><strong>Rp. 20.000.000</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-3 col-lg-3">
+          <div class="card">
+            <img src="img/padi.png" alt="gambar padi" class="img-fluid" width="100%">
+            <div class="card-body">
+              <h5>Padi</h5>
+              <p>Total pendanaan mencapai</p>
+              <p><strong>Rp. 20.000.000</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row p-5">
+        <div class="col-sm-12 col-md-12 col-lg-12 d-flex align-content-center justify-content-center">
+          <div class="pagination">
+            <ion-icon name="arrow-back-outline" class="me-3 fw-bold"></ion-icon>
+            <ion-icon name="ellipse-outline" class="me-2 text-black"></ion-icon>
+            <ion-icon name="ellipse-outline" class="me-2 text-black"></ion-icon>
+            <ion-icon name="ellipse-outline" class="me-2 text-black"></ion-icon>
+            <ion-icon name="arrow-forward-outline" class="ms-3 fw-bold"></ion-icon>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Keunggulan -->
+  <div class="keunggulan-user m-5 p-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 d-flex align-content-center justify-content-center">
+          <div class="heading-keunggulan">
+            <h5>Keunggulan Ajukan Pendanaan di  E-mutan</h5>
+          </div>
+        </div>
+      </div>
+      <div class="row m-5">
+        <div class="col-sm-12 col-md-3 col-lg-3">
+          <div class="card p-5 bg-light">
+            <div class="desc-img d-flex justify-content-center align-content-center">
+              <img src="img/keunggulan1.png" class="img-fluid" width="100">
+            </div>
+            <div class="desc mt-4 text-center">
+              <h5 class="mb-4"><strong>Terpercaya</strong></h5>
+              <p>Lorem ipsum dolor sit amet consectetur. Sollicitudin arcu amet dapibus erat. Vitae id.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-3 col-lg-3">
+          <div class="card p-5 bg-light">
+            <div class="desc-img d-flex justify-content-center align-content-center">
+              <img src="img/keunggulan2.png" class="img-fluid" width="100">
+            </div>
+            <div class="desc mt-4 text-center">
+              <h5 class="mb-4"><strong>Cepat</strong></h5>
+              <p>Lorem ipsum dolor sit amet consectetur. Sollicitudin arcu amet dapibus erat. Vitae id.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-3 col-lg-3">
+          <div class="card p-5 bg-light">
+            <div class="desc-img d-flex justify-content-center align-content-center">
+              <img src="img/keunggulan3.png" class="img-fluid" width="100">
+            </div>
+            <div class="desc mt-4 text-center">
+              <h5 class="mb-4"><strong>Mudah</strong></h5>
+              <p>Lorem ipsum dolor sit amet consectetur. Sollicitudin arcu amet dapibus erat. Vitae id.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-3 col-lg-3">
+          <div class="card p-5 bg-light">
+            <div class="desc-img d-flex justify-content-center align-content-center">
+              <img src="img/keunggulan4.png" class="img-fluid" width="100">
+            </div>
+            <div class="desc mt-4 text-center">
+              <h5 class="mb-4"><strong>Menguntungkan</strong></h5>
+              <p>Lorem ipsum dolor sit amet consectetur. Sollicitudin arcu amet dapibus erat. Vitae id.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Keunggulan -->
+  
+  <div class="footer bg-dark" id="footer">
+    <div class="container d-flex justify-content-center">
+      <div class="row">
+        <p class="text-light">Copyright 2022-2028 © PT. Emutan Indonesia telah Berizin dan Diawasi oleh <img src="../assets/images/izin-ojk.png" alt="ojk" class="img-fluid" width="45"></p>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+
+  <!-- icons ionics -->
+  
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+  <script src="../assets/js/script.js"></script>
+
+
+</body>
+</html>

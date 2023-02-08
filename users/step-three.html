@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- fontawesome & icons -->
+  <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"/>
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <title>Tahap pengiriman berkas</title>
+  <style>
+    * {
+			box-sizing: border-box;
+    }
+
+     #form-wrapper { overflow: hidden; }
+
+    .center {
+      background-color: #F9F9F9;
+      border-radius: 2rem;
+    }
+
+    .buttons {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+    }
+
+    .button-rek {
+      text-decoration: none;
+      color: #000000;
+    }
+
+    .group-box {
+      margin-top: 10rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../assets/images/logo.png" alt="logo" width="120">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="./user-account.png" alt="icon languages" width="25">
+            </a>
+
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#"><ion-icon name="card-outline"></ion-icon> Saldo</a></li>
+              <li><a class="dropdown-item" href="#">Rp. 100.000.000</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="dashboard-user.html"><ion-icon name="home-outline"></ion-icon> Dashboard</a></li>
+              <li><a class="dropdown-item" href="user.html"><ion-icon name="person-circle-outline"></ion-icon> My Profile</a></li>
+              <li><a class="dropdown-item" href="#"><ion-icon name="cart-outline"></ion-icon> Keranjang</a></li>
+              <li><a class="dropdown-item" href="user-setting/user-setting.html"><ion-icon name="cog-outline"></ion-icon> Pengaturan</a></li>
+              <li><a class="dropdown-item" href="../index.html"><ion-icon name="exit-outline" class="text-danger"></ion-icon> Keluar</a></li>
+            </ul>
+          </li>
+          <a class="nav-link">
+            <img src="./notifications-outline.svg" alt="icon" width="25">
+          </a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navigation -->
+
+  <div class="header" id="form-wrapper">
+    <div class="row justify-content-center">
+      <div class="col-md-4 text-center mb-5">
+        <h4 class="text-start text-center pt-5 pb-4">Lengkapi Identitas Anda</h4>
+        <p>Tahap akhir, dimana data anda akan dikirim</p>
+
+        <div class="center p-5">
+          <form action="#">
+            <div class="group text-start">
+              <label for="nama" class="mb-1">Upload Dokumen Pendukung</label> 
+              <span class="text-danger">*</span>
+              <div class="input-group mb-3">
+                <input type="file" class="form-control">
+              </div>
+            </div>
+
+            <div class="group group-box">
+              <a href="dashboard-user.html" onclick="alert('Data anda berhasil di kirim, silahkan tunggu hingga disetujui')" class="buttons text-white text-decoration-none">Kirim Berkas</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Izin Usaha -->
+  <div id="izin" class="bg-light">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-sm-12 col-md-6">
+          <h5>Telah Berizin dan Diawasi oleh</h5>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <h5>Anggota Terdaftar dari</h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center">
+          <img src="../assets/images/izin-ojk.png" class="img-fluid" alt="ojk">
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <img src="../assets/images/izin-fintech.png" class="img-fluid" alt="fintech">
+          <img src="../assets/images/izin-afpi.png" class="img-fluid" alt="afpi">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Izin Usaha -->
+
+  <!-- Footer -->
+  <footer class="p-5" id>
+    <!-- Footer -->
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-sm-12 col-md-2">
+          <img class="img-fluid" src="../assets/images/logo.png" alt="logo">
+        </div>
+        <div class="col-sm-12 col-md-3 text-start">
+          <ul class="nav-list">
+            <p class="fw-bold">Contact Us</p>
+            <span>PT. Emutan</span><br>
+            <span>Jl. Lewinanggung RT.11/RW.03, Depok, Jawa Barat.</span>
+            <a href="#" class="text-decoration-none text-info">emailemutan@yahoo.co</a>
+            <a href="#" class="text-decoration-none text-dark">+62 812-7543-1681</a>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-md-2 text-start">
+          <ul class="nav-list">
+            <p class="fw-bold">Pendanaan</p>
+            <li class="nav-item menu"><a href="#" class="nav-link text-decoration-none">Petani</a></li>
+            <li class="nav-item menu"><a href="#" class="nav-link text-decoration-none">Supplier</a></li>
+            <li class="nav-item menu"><a href="#" class="nav-link text-decoration-none menu">Obtaker</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-md-3 text-start">
+          <ul class="nav-list">
+            <p class="fw-bold">Categories</p>
+            <li class="nav-item menu"><a href="#" class="nav-link text-decoration-none">Finance</a></li>
+            <li class="nav-item menu"><a href="#" class="nav-link text-decoration-none">Management System</a></li>
+            <li class="nav-item menu"><a href="#" class="nav-link text-decoration-none menu">Sustainable Market</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-md-2 text-start">
+          <ul class="nav-list">
+            <p class="fw-bold">About Us</p>
+            <li class="nav-item menu"><a href="#" class="nav-link text-decoration-none">FAQs</a></li>
+            <li class="nav-item menu"><a href="#" class="nav-link text-decoration-none">Blog</a></li>
+            <li class="nav-item menu"><a href="#" class="nav-link text-decoration-none menu">About Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div> <!-- End Footer -->
+  </footer>
+  
+  <div class="footer bg-dark" id="footer">
+    <div class="container d-flex justify-content-center">
+      <div class="row">
+        <p class="text-light">Copyright 2022-2028 © PT. Emutan Indonesia telah Berizin dan Diawasi oleh <img src="../assets/images/izin-ojk.png" alt="ojk" class="img-fluid" width="45"></p>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+
+  <!-- icons ionics -->
+  
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+  <script src="../assets/js/script.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/style.css">
+	<title>Phone Verification</title>
+	<style>
+		* {
+			box-sizing: border-box;
+			}
+
+			body {
+				background-color: #eee;
+				font-family: "Lato", sans-serif;
+				height: 100vh;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				overflow: hidden;
+				margin: 0;
+			}
+	</style>
+</head>
+<body>
+	<div class="verify-container">
+		<h2>Verify Your Account</h2>
+		<p>
+			We send you the six digit code to <a href="" class="number">+62 856 744 890 12</a> <br>
+			Enter the code below to confirm your email address
+		</p>
+
+		<div class="code-container">
+			<input type="number" class="code" placeholder="0" min="0" max="9" required>
+			<input type="number" class="code" placeholder="0" min="0" max="9" required>
+			<input type="number" class="code" placeholder="0" min="0" max="9" required>
+			<input type="number" class="code" placeholder="0" min="0" max="9" required>
+			<input type="number" class="code" placeholder="0" min="0" max="9" required>
+			<input type="number" class="code" placeholder="0" min="0" max="9" required>
+		</div>
+
+		<div>
+			<a href="../sign-in.html" class="btn buttton-primary" onclick="alert('verify successfuly')">Verify</a>
+		</div>
+
+		<small>
+			If  didn't recieve a code!! <strong>Resend</strong>
+		</small>
+	</div>
+
+	<script src="../assets/js/otp-verifications.js"></script>
+</body>
+</html>
