@@ -267,6 +267,10 @@
   padding-top: 1rem;
 }
 
+footer {
+  overflow: hidden;
+}
+
 .description-bottom {
 	margin: 2rem 0;
 }
