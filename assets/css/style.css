@@ -136,15 +136,6 @@
   color: #FFFFFF;
 }
 
-/* Responsive */
-@media only screen and (max-width: 768px) {
-  /* Signin & Signup */
-  #container-signin-form,
-  #container-signup-form {
-    padding-left: 2em;
-    padding-right: 2em;
-  }
-
   /* About us */
   .mission-left, .mission-right img {
     display: flex;
@@ -174,8 +165,6 @@
   .carousel-comodities .carousel-inner .comodities-item h1 {
     margin: auto;
   }
-}
-
 
 /* EMAIL & PHONE VERIFICATION */
 .verify-container {
@@ -1367,6 +1356,29 @@ p {
     text-align:center;
     padding: 1em;
   }
+}
 
-	
+/* Responsive */
+@media only screen and (max-width: 768px) {
+  .skoring {
+    margin-bottom: 2em;
+  }
+
+  #skoring .container .row #skoring-left h4 {
+    margin-top: 2em;
+  }
+
+  #skoring .container .row .skoring-left {
+    display: block;
+    margin: auto;
+    padding: 1em;
+    text-align:center;
+  }
+
+  /* Signin & Signup */
+  #container-signin-form,
+  #container-signup-form {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
 }
