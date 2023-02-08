@@ -78,26 +78,104 @@
 }
 
 /* SIGNIN & SIGNUP */
-.lupa-password {
+.container-signin, .container-signup {
+  overflow: hidden;
+}
+
+.btns-lupa-password {
+  color: black;
 	float: right;
 }
 
-.link-buttons {
-	color: #1A5653;
-	font-weight: 600;
-	text-decoration: none;
+.btns-signin {
+  background-color: #1A5653;
+  display: flex;
+  font-weigt: 700;
+  padding: 1em;
+  border-radius: 1em;
+  justify-content:center;
+  color: #FFFFFF;
 }
 
-.buttons {
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  padding: 7px;
-  background-color: #1A5653;
-  color: #ffffff;
-  font-weight: 500;
-  width: 100%;
+.btns-daftar {
+  text-decoration: none;
+  color: black;
 }
+
+/* Signup */
+.icons-section {
+  margin: 5px;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.icons-section a {
+  text-decoration: none;
+}
+
+.btns-masuk {
+	color: black;
+	font-weight: 600;
+  text-decoration: none;
+}
+
+.links {
+  color: #1A5653;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btns-signup {
+  background-color: #1A5653;
+  display: flex;
+  font-weigt: 700;
+  padding: 1em;
+  border-radius: 1em;
+  justify-content:center;
+  color: #FFFFFF;
+}
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+  /* Signin & Signup */
+  #container-signin-form,
+  #container-signup-form {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  /* About us */
+  .mission-left, .mission-right img {
+    display: flex;
+    margin: auto;
+  }
+
+  .mission-left, .mission-right h5 {
+    margin: auto;
+    text-align:center;
+    margin-bottom: 1em;
+  }
+  
+  .mission-left, .mission-right p {
+    text-align: justify;
+  }
+
+  .mission-right .line {
+    display: none;
+  }
+
+  #izin-bank img {
+    display: flex;
+    margin: auto;
+    margin-bottom: 2.5em;
+  }
+
+  .carousel-comodities .carousel-inner .comodities-item h1 {
+    margin: auto;
+  }
+}
+
 
 /* EMAIL & PHONE VERIFICATION */
 .verify-container {
@@ -309,6 +387,7 @@
 	background-image: url(../../assets/images/skoring-bg.png);
 	height: 100vh;
 	box-sizing: border-box;
+  background-size: cover;
 }
 
 .modelling-score .description-skor {
@@ -461,7 +540,7 @@
 }
 
 .carousel-comodities .carousel-inner .comodities-item {
-	min-height: 100vh;
+	/* min-height: 100vh; */
 	background-position: center;
 	background-size: cover;
 }
@@ -550,101 +629,6 @@
 
 .carousel-item.rice-comodities:nth-child(3) {
 	background-image: url('../images/comodities/rice/rice3.jpg');
-}
-
-
-
-/*===========================
-  INDEX EMUTAN (HOME)
-  ==========================*/
-	/* .hero-jumbotron {
-		overflow: hidden;
-		display: flex;
-		justify-content: center;
-		align-content: center;
-		align-items: center;
-		height: 100vh;
-		box-sizing: border-box;
-	}
-	
-	.hero-jumbotron .media-button ul {
-		margin-top: 3rem;
-		padding: 0;
-	}
-	
-	.hero-jumbotron .media-button .btn-getstarted {
-		margin-right: .55rem;
-		padding: .5rem 3.5rem;
-		background-color: #1A5653;
-		border-radius: 1.15rem;
-		border: 1px solid #1A5653;
-	}
-	
-	.hero-jumbotron .media-button .btn-getstarted .btn-getstarted-link {
-		font-weight: 600;
-		color: #ffffff;
-		text-decoration: none;
-	}
-	
-	.hero-jumbotron .media-button .btn-getstarted:hover {
-		font-weight: 600;
-		color: #ffffff;
-		text-decoration: none;
-		box-shadow: 13px 3px 27px 10px rgba(197, 202, 233, 1);
-		cursor: pointer;
-	}
-	
-	.hero-jumbotron .media-button .btn-learnmore {
-		padding: .5rem 3.5rem;
-		border-radius: 1.15rem;
-		border: 1px solid #1A5653;
-	}
-	
-	.hero-jumbotron .media-button .btn-learnmore .btn-learnmore-link {
-		font-weight: 600;
-		color: #1A5653;
-		text-decoration: none;
-	}
-	
-	.hero-jumbotron .media-button .btn-learnmore:hover {
-		font-weight: 600;
-		color: #1A5653;
-		text-decoration: none;
-		box-shadow: 13px 3px 27px 10px rgba(197, 202, 233, 1);
-		cursor: pointer;
-	} */
-
-	@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
-
-/* :root {
-  --bs-blue: #0d6efd;
-  --bs-indigo: #6610f2;
-  --bs-purple: #6f42c1;
-  --bs-pink: #d63384;
-  --bs-red: #dc3545;
-  --bs-orange: #fd7e14;
-  --bs-yellow: #ffc107;
-  --bs-green: #198754;
-  --bs-teal: #20c997;
-  --bs-cyan: #0dcaf0;
-  --bs-white: #fff;
-  --bs-gray: #6c757d;
-  --bs-gray-dark: #343a40;
-  --bs-primary: #0d6efd;
-  --bs-secondary: #6c757d;
-  --bs-success: #198754;
-  --bs-info: #0dcaf0;
-  --bs-warning: #ffc107;
-  --bs-danger: #dc3545;
-  --bs-light: #f8f9fa;
-  --bs-dark: #212529;
-} */
-
-* {
-  margin: 0;
-  font-size: 14px;
-  padding: 0;
-  font-family: "Poppins", sans-serif;
 }
 
 /* =================== 
@@ -1374,6 +1358,11 @@ p {
 	.jumbotron-desc p {
 		font-size: 14px;
 	}
+
+  #footer p {
+    text-align:center;
+    padding: 1em;
+  }
 
 	
 }
