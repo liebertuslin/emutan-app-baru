@@ -1387,8 +1387,11 @@ p {
   }
 
   .navbar-users {
-    margin-bottom: 10rem;
-    padding: 1rem;
+    margin-bottom: 7.5rem;
+  }
+
+  .container-user {
+    padding: 0 2rem;
   }
 
   #group-input, .comodity-user {
