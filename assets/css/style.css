@@ -1303,6 +1303,10 @@ p {
   border-radius: 3rem;
 }
 
+#card-users {
+  padding: 10px;
+}
+
 
 
 
@@ -1412,6 +1416,7 @@ p {
 
   .keunggulan-user .container #card-users {
     width: 100%;
+    padding: 5px;
   }
 
   #container-user {
