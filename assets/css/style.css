@@ -1383,11 +1383,16 @@ p {
   }
   
   .jumbotron-desc {
-    margin-bottom: 5rem;
+    margin-bottom: 3.5rem;
   }
 
-  .dasrhoard-user, #group-input, .comodity-user {
+  .dashboard-user {
     margin-top: 5rem;
+    padding: 1rem;
+  }
+
+  #group-input, .comodity-user {
+    margin-top: 3rem;
   }
 
   .card-users {
@@ -1397,5 +1402,23 @@ p {
 
   #card-users {
     width: 100%;
+  }
+
+  #container-user {
+    padding:0;
+    margin:5px;
+  }
+
+  .jumbotron-desc h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+  }
+
+  .jumbotron-desc .get-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
   }
 }
