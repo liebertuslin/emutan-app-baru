@@ -1410,7 +1410,7 @@ p {
     justify-content: center;
   }
 
-  #card-users {
+  .keunggulan-user .container #card-users {
     width: 100%;
   }
 
