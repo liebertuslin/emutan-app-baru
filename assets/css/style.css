@@ -1390,8 +1390,13 @@ p {
     margin-bottom: 7.5rem;
   }
 
-  .container-user {
-    padding: 0 2rem;
+  .dasrhoard-user {
+    margin-bottom: 7.5rem;
+  }
+
+  .dasrhoard-user .container-user {
+    margin: 0;
+    padding: 0;
   }
 
   #group-input, .comodity-user {
