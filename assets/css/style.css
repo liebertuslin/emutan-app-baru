@@ -1382,19 +1382,20 @@ p {
     padding-right: 2em;
   }
   
-  /* .jumbotron-desc {
+  .jumbotron-desc {
     margin-bottom: 5rem;
   }
 
   .dasrhoard-user, #group-input {
     margin-top: 4rem;
-  } */
-
-  .jumbotron-desc {
-    margin-bottom: 4em;
   }
 
-  .container.container-user, #group-input {
-    margin-top: 8rem;
+  .card-users {
+    display: flex;
+    justify-content: center;
+  }
+
+  #card-users {
+    width: 100%;
   }
 }
