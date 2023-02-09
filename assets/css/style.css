@@ -1360,8 +1360,8 @@ p {
 
 /* Responsive */
 @media only screen and (max-width: 768px) {
-  .skoring {
-    margin-bottom: 2em;
+  .container-skoring {
+    margin-bottom: 10rem;
   }
 
   #skoring .container .row #skoring-left h4 {
@@ -1380,5 +1380,21 @@ p {
   #container-signup-form {
     padding-left: 2em;
     padding-right: 2em;
+  }
+  
+  /* .jumbotron-desc {
+    margin-bottom: 5rem;
+  }
+
+  .dasrhoard-user, #group-input {
+    margin-top: 4rem;
+  } */
+
+  .jumbotron-desc {
+    margin-bottom: 4em;
+  }
+
+  .container.container-user, #group-input {
+    margin-top: 8rem;
   }
 }
