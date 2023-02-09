@@ -1387,11 +1387,13 @@ p {
   }
 
   .navbar-users {
-    margin-bottom: 7.5rem;
+    margin-bottom: 6.5rem;
   }
 
   .dasrhoard-user {
-    margin-bottom: 7.5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 5rem;
   }
 
   .dasrhoard-user .container-user {
